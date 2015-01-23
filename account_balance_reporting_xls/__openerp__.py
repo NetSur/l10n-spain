@@ -33,6 +33,9 @@
         'account_balance_reporting',
         'report_xls',
     ],
+    'external_dependencies': {
+        'python': ['xlwt'],
+    },
     'contributors': [
         'Alejandro Santana <alejandrosantana@anubia.es>',
         'Juan Formoso <jfv@anubia.es>',
